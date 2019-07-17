@@ -1,6 +1,6 @@
 {
   "name": "ph-7/phonedetector",
-  "description": "Redirect users to the correct app store depending on their phone's OS.",
+  "description": "Detect user's mobile phone based on their phone's OS.",
   "keywords": [
     "mobile",
     "phone",
