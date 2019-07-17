@@ -3,6 +3,13 @@
 **Redirect users to the correct app store depending on their phone's OS.**
 
 
+## 📓 Installation (with Composer)
+
+```bash
+composer require ph-7/phonedetector
+```
+
+
 ## 🎮  Usage
 
 Below is a simple example of what you can do with **PhoneDetector** library.
