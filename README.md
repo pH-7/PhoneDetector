@@ -3,6 +3,25 @@
 **Redirect users to the correct app store depending on their phone's OS.**
 
 
+## 🎮  Usage
+
+Below is a simple example of what you can do with **PhoneDetector** library.
+
+```php
+<?php
+use PierreHenry\PhoneDetector\PhoneDetector;
+
+$phoneDetector = new PhoneDetector();
+if ($phoneDetector->isAndroid()) {
+    echo 'Your mobile phone is Android!';
+}
+
+if ($phoneDetector->isIos()) {
+    echo 'Your mobile phone is an iPhone!';
+}
+```
+
+
 ## 🚀 Author
 
 [![Pierre-Henry Soria](https://avatars0.githubusercontent.com/u/1325411?s=200)](https://pierrehenry.be "My personal website :-)")
