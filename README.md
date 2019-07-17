@@ -12,10 +12,11 @@ composer require ph-7/phonedetector
 
 ## 🎮  Usage
 
-Below is a simple example of what you can do with **PhoneDetector** library.
+Below are two simple examples of what you can do with **PhoneDetector** library.
+
+### Example 1
 
 ```php
-<?php
 use PierreHenry\PhoneDetector\PhoneDetector;
 
 $phoneDetector = new PhoneDetector();
@@ -26,6 +27,27 @@ if ($phoneDetector->isAndroid()) {
 if ($phoneDetector->isIos()) {
     echo 'Your mobile phone is an iPhone!';
 }
+```
+
+### Example 2
+
+```php
+<?php
+require 'vendor/autoload.php';
+
+use PierreHenry\PhoneDetector\PhoneDetector;
+
+$phoneDetector = new PhoneDetector();
+
+if ($phoneDetector->isAndroid()) {
+    $url = 'https://play.google.com/store/apps/details?id=com.lifyzer';
+} elseif($phoneDetector->isIos()) {
+    $url = 'https://apps.apple.com/app/longer-life-lifyzer-food-scan/id1466196809';
+} else {
+    $url = 'https://DEFAULT-URL.example';
+}
+
+header('Location: ' . $url);
 ```
 
 
