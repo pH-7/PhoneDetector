@@ -1,0 +1,32 @@
+{
+  "name": "ph-7/phonedetector",
+  "description": "Redirect users to the correct app store depending on their phone's OS.",
+  "keywords": [
+    "redirection",
+    "mobile",
+    "phone",
+    "detector",
+    "device",
+    "phone detector"
+  ],
+  "type": "library",
+  "homepage": "https://ph7.me",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Pierre-Henry Soria",
+      "email": "hi@ph7.me"
+    }
+  ],
+  "require": {
+    "php": ">=7.3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "PierreHenry\\PhoneDetector\\": "src"
+    }
+  }
+}
