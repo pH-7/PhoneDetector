@@ -12,7 +12,7 @@ namespace PierreHenry\PhoneDetector;
 
 class PhoneDetector
 {
-    private const REGEX_IOS = '#(iPhone|iPad)#i';
+    private const REGEX_IOS = '#(iPhone|iPad|iPod)#i';
     private const REGEX_ANDROID = '#android#i';
 
     /** @var string */
