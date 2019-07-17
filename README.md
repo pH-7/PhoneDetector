@@ -33,7 +33,7 @@ if ($phoneDetector->isIos()) {
 
 ```php
 <?php
-require 'vendor/autoload.php';
+require 'vendor/autoload.php'; // Include Composer to load the library
 
 use PierreHenry\PhoneDetector\PhoneDetector;
 
