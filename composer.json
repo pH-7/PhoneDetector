@@ -2,7 +2,6 @@
   "name": "ph-7/phonedetector",
   "description": "Redirect users to the correct app store depending on their phone's OS.",
   "keywords": [
-    "redirection",
     "mobile",
     "phone",
     "detector",
