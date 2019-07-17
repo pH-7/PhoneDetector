@@ -33,9 +33,10 @@ if ($phoneDetector->isIos()) {
 
 [![Pierre-Henry Soria](https://avatars0.githubusercontent.com/u/1325411?s=200)](https://pierrehenry.be "My personal website :-)")
 
+[![@phenrysay][twitter-image]][twitter-url]
+
 **[Pierre-Henry Soria][author-url]**, a Passionate, Zen&Cool Belgian Software Engineer :belgium: :chocolate_bar:
 
-[![@phenrysay][twitter-image]][twitter-url]
 
 ## 😄 Used By...
 
