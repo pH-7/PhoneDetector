@@ -1,6 +1,6 @@
 # 📱 PhoneDetector
 
-**Redirect users to the correct app store depending on their phone's OS.**
+**Detect users' mobile phone based on the device OS.**
 
 
 ## 📓 Installation (with Composer)
