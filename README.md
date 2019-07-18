@@ -1,6 +1,6 @@
 # 📱 PhoneDetector
 
-**Detect users' mobile phone based on the device OS.**
+**Lightweight PHP 7.2 library that detects users' mobile phone based on the device OS.**
 
 
 ## 📓 Installation (with Composer)
