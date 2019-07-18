@@ -69,7 +69,7 @@ I initially created PhoneDetector to redirect users to the correct app's store f
 
 ## ⚙ Server Requirement
 
-PHP 7.3 or higher.
+[PHP 7.2](https://php.net/releases/7_2_0.php) or higher.
 
 
 ## ⚖ License
