@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit
-        bootstrap="vendor/autoload.php">
+    bootstrap="vendor/autoload.php">
     verbose="true"
     colors="true">
     <testsuites>
-        <testsuite name="PH's DIC">
+        <testsuite name="PhoneDetector">
             <directory>tests</directory>
         </testsuite>
     </testsuites>
