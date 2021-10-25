@@ -51,6 +51,11 @@ header('Location: ' . $url);
 ```
 
 
+## ⚙ Server Requirement
+
+[PHP 7.2](https://php.net/releases/7_2_0.php) or higher.
+
+
 ## 🚀 Author
 
 [![Pierre-Henry Soria](https://avatars0.githubusercontent.com/u/1325411?s=200)](https://pierrehenry.be "My personal website :-)")
@@ -65,11 +70,6 @@ header('Location: ' . $url);
 I initially created PhoneDetector to redirect users to the correct app's store for *https://get.lifyzer.com* depending on the mobile device.
 
 **[https://github.com/Lifyzer/get.lifyzer.com](https://github.com/Lifyzer/get.lifyzer.com)**
-
-
-## ⚙ Server Requirement
-
-[PHP 7.2](https://php.net/releases/7_2_0.php) or higher.
 
 
 ## ⚖ License
