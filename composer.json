@@ -27,5 +27,8 @@
     "psr-4": {
       "PierreHenry\\PhoneDetector\\": "src"
     }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
   }
 }
