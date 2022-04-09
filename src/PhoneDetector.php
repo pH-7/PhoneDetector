@@ -2,7 +2,7 @@
 /**
  * @author         Pierre-Henry Soria <hi@ph7.me>
  * @link           https://pierrehenry.be
- * @copyright      (c) 2019, Pierre-Henry Soria. All Rights Reserved.
+ * @copyright      (c) 2019-2022, Pierre-Henry Soria. All Rights Reserved.
  * @license        MIT License
  */
 
@@ -40,6 +40,6 @@ class PhoneDetector
 
     private function getUserAgent(): string
     {
-        return (string)$_SERVER['HTTP_USER_AGENT'];
+        return $_SERVER['HTTP_USER_AGENT'] ?? '';
     }
 }
