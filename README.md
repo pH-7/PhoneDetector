@@ -53,7 +53,7 @@ header('Location: ' . $url);
 
 ## ⚙ Server Requirement
 
-[PHP 7.2](https://php.net/releases/7_2_0.php) or higher.
+- [PHP 7.2](https://php.net/releases/7_2_0.php) or higher.
 
 
 ## 🚀 Author
