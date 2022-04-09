@@ -25,7 +25,7 @@ if ($phoneDetector->isAndroid()) {
 }
 
 if ($phoneDetector->isIos()) {
-    echo 'Your mobile phone runs with iOS';
+    echo 'Your mobile phone runs on iOS';
 }
 ```
 
